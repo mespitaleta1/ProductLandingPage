@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FreeCodeCamp Project- Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Header and nav section-->
+    <header id="header" class="fixed-nav">
+      <div>
+        <img
+          id="header-img"
+          class="logo"
+          src="content/Logo1.png"
+          alt="logo of rubeácea coffe store"
+        />
+      </div>
+      <div>
+        <nav id="nav-bar" class="menu-bar">
+          <ul class="menu-bar-list">
+            <li class="menu-bar-list_item">
+              <a class="menu-bar_link  nav-link" href="#aboutus"
+                ><em>about us</em></a
+              >
+            </li>
+            <li class="menu-bar-list_item">
+              <a class="menu-bar_link nav-link" href="#knowmore"
+                ><em>know more</em></a
+              >
+            </li>
+            <li class="menu-bar-list_item">
+              <a class="menu-bar_link  nav-link" href="#contactus">
+                <em>contact us</em>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero-img">
+      <div class="container">
+        <!--Hero section text -->
+        <div class="title-box">
+          <h1 class="title">Selected Coffee</h1>
+          <p class="subtitle">
+            the unfiltered truth about the<br />
+            best coffee experience.
+          </p>
+        </div>
+        <div class="btn-box">
+          <a class="shop-btn" href="#"><em>shop now</em></a>
+        </div>
+      </div>
+    </div>
+
+    <!--About us section-->
+    <section class="aboutus" id="aboutus">
+      <div class="container">
+        <div class="box">
+          <div class="text-box">
+            <h2 class="caption">
+              Coffee always refresh<br />
+              your days.
+            </h2>
+            <p class="description">
+              our coffee brings you a mix of the best-selected grain of the
+              mountains of the south of Cauca, creating a coffee with fine
+              characteristics that make it possible to prepare a silky drink,
+              with citric acidity, sweet, winey and with a delicate residual of
+              raisins.
+            </p>
+            <button class="add-btn">Learn more</button>
+          </div>
+          <div class="img-aboutus">
+            <img
+              class="coffee-img"
+              src="../content/pablo-unsplash.jpg"
+              alt="man holding coffee beans in his hands"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- complementary section-->
+    <section class="add-section">
+      <div class="container">
+        <div class="add-box">
+          <a class="box-link-item  link1" href="#" target="_blank">
+            <img
+              class="img-card1"
+              src="../content/coffeeready.jpg"
+              alt="one cup of coffee"
+            />
+            <p class="card-text">
+              Know our preparations, add <br />joy to your days!
+            </p>
+          </a>
+          <a class="box-link-item  link2" href="#" target="_blank">
+            <img
+              class="img-card2"
+              src="../content/coffeegif.jpg"
+              alt="a gift box of coffee"
+            />
+            <p class="card-text">
+              Share your joy, give Rubiácea! <br />
+              surprise them with the best gifts.
+            </p>
+          </a>
+          <a class="box-link-item  link3" href="#" target="_blank">
+            <img
+              class="img-card3"
+              src="../content/coffeeadd.jpg"
+              alt="a coffee makers machine"
+            />
+            <p class="card-text">
+              don't miss anything. get our cups <br />
+              and accessories, for a perfect <br />
+              coffee. A perfect day!
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Know more section with video-->
+    <section id="knowmore" class="knowmore">
+      <div class="container">
+        <div class="box">
+          <div class="video-box">
+            <iframe
+              id="video"
+              class="video-promo"
+              width="445"
+              height="311"
+              src="https://www.youtube.com/embed/ohyJOm6Lk3k"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="text-box">
+            <h2 class="caption">
+              The Coffee Spectrum.
+            </h2>
+            <p class="description">
+              If you are thinking about, how our coffee can make a change in
+              your days and definitely in your life, play this video.
+            </p>
+            <p class="description">
+              coffee is the perfect drink for every moment or experience of the
+              day. You can take a cold brew in a hot summer, a cappuccino in the
+              evening or a perfect espresso in a meeting. you choose!!
+            </p>
+            <button class="add-btn">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactus" class="final-section">
+      <div class="container">
+        <div class="wrapper">
+          <h2 class="final-title">don't miss a thing!</h2>
+          <p class="final-description">
+            Subscribe to our news channel, to always be up to date with all the
+            benefits <br />
+            and benefits that coffee can bring to your life.
+          </p>
+
+          <div class="final-box">
+            <form
+              id="form"
+              class="survey"
+              action="https://www.freecodecamp.com/email-submit"
+            >
+              <div id="email-box">
+                <input
+                  id="email"
+                  class="emailfield"
+                  type="email"
+                  name="email"
+                  placeholder="example@email.com"
+                  required
+                  autofocus
+                />
+              </div>
+
+              <input
+                id="submit"
+                class="subscribe-btn"
+                type="submit"
+                name="submit"
+                value="submit"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer section-->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-box">
+          <div class="social-box">
+            <h4 class="footer-title">Visit our social channels:</h4>
+            <div class="social-red">
+              <a class="link1" href="#" target="_blank">
+                <img
+                  class="twitter-link"
+                  src="../content/twitter.png"
+                  alt="twitter channel"
+                />
+              </a>
+              <a class="link2" href="#" target="_blank">
+                <img
+                  class="insta-link"
+                  src="../content/pngocean.png"
+                  alt="instagram channel"
+                />
+              </a>
+              <a class="link3" href="#" target="_blank">
+                <img
+                  class="fb-link"
+                  src="../content/fbocean.png"
+                  alt="facebook channel"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <p class="copyright">
+              <em>&copy;2020-Rubiácea Coffee Company- All rights reserved.</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

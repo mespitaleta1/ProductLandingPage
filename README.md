@@ -1,2 +1,0 @@
-# ProductLandingPage
-Created with CodeSandbox
