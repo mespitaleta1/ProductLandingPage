@@ -1,10 +1,8 @@
 /*General features*/
-* {
-  font-family: "Lato", sans-serif;
-}
 body {
   margin: 0;
   background-color: #fcfcfc;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
